@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b0533;
+}
+
+.capa{
+    color: white;
+    margin: 6px;
+    
+    
+}
+
+.capa ul img{
+    object-fit: cover;
+    width: auto;
+    height: 100px;
+}
+
+.capa ul li{
+    text-decoration: none;
+    display: inline-flex;
+    text-align: right;
+    float: right;
+    padding: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+
+.capa a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    flex: 1;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.banner video{
+    float: right;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.banner h1{
+    position: absolute;
+    top: 95vh;
+    padding-left: 30px;
+    font-size: 40px; text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px;
+    background-color: black;
+}
+
+.banner h2{
+    position: absolute;
+    top: 100vh;
+    padding-left: 30px;
+    font-size: 40px; 
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    padding-right: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px;
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+.conteudo{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-transform:uppercase;
+    padding-top: 100vh;
+}
+
+.conteudo ul {
+    text-decoration: none;
+    list-style: none;
+    flex: 1;
+    border: 2px solid purple;
+    background: rgb(0, 0, 0);
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: #1b0533;
+    padding:20px;
+}
+
+.conteudo ul img{
+    float:right;
+    overflow-y: hidden;
+    height: 8%;
+    width: 5%;
+}
+
+.conteudo li{
+    padding-bottom: 8px;
+}
+
+.conteudo button {
+    background-color: #a108a7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+.conteudo button  a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.conteudo2{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-transform:uppercase;
+    
+}
+
+.conteudo2 ul {
+    text-decoration: none;
+    list-style: none;
+    flex: 1;
+    border: 2px solid purple;
+    background: rgb(0, 0, 0);
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: #1b0533;
+    padding:20px;
+    text-align: right;
+}
+
+.conteudo2 ul img{
+    float:left;
+    overflow-y: hidden;
+    height: 8%;
+    width: 5%;
+}
+
+.conteudo2 li{
+    padding-bottom: 8px;
+}
+
+.conteudo2 button {
+    background-color: #a108a7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+.conteudo2 button  a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: black;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.conteudo3{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-transform:uppercase;
+    
+}
+
+.conteudo3 ul {
+    text-decoration: none;
+    list-style: none;
+    flex: 1;
+    border: 2px solid purple;
+    background: rgb(0, 0, 0);
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: #1b0533;
+    padding:20px;
+    text-align: left;
+}
+
+.conteudo3 ul img{
+    float:right;
+    overflow-y: hidden;
+    height: 8%;
+    width: 5%;
+}
+
+.conteudo3 li{
+    padding-bottom: 8px;
+}
+
+.conteudo3 button {
+    background-color: #a108a7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+.conteudo3 button  a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
